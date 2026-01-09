@@ -1,5 +1,5 @@
 h1{
-    color:rgb(31, 83, 179);
+    color:rgb(9, 55, 141);
 }
 body{
     background-color: rgb(99, 176, 248);
@@ -11,7 +11,58 @@ body{
     margin: 0 auto;
     border-radius: 10px;
     padding: 20px;
-    
-    box-shadow: 10px 10px rgba(0,0,0,0,5);
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+    display: flex;
 
+}
+
+.logo{
+    background-color: rgb(255, 255, 255);
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+
+.menu{
+    background-color: rgb(7, 100, 180);
+    width: 65%;
+
+}
+
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: rgb(11, 109, 194);
+    
+}
+
+.menu ul li{
+    margin: 0;
+    padding: 15px 20px;
+    color: aliceblue;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.menu ul li a:hover{
+    background-color: rgb(133, 193, 245);
+    padding: 15px 20px;
+}
+.redes{
+    background-color: rgb(150, 149, 155);
+    width: 20%;
 }
