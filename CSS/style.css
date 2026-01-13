@@ -65,4 +65,89 @@ body{
 .redes{
     background-color: rgb(150, 149, 155);
     width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+/* apartao nuevooo*/
+.contenedor-principal{
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+.seccion-tarjetas{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(99, 176, 248);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tarjeta{
+    flex: 1;
+    background-color: rgb(68, 154, 225);
+    border: 3px solid rgb(11, 109, 194);
+    border-radius: 5px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.seccion-grande{
+    background-color: rgb(99, 200, 230);
+    border: 3px solid rgb(11, 109, 194);
+    border-radius: 10px;
+    padding: 80px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 24px;
+    font-weight: bold;
+    min-height: 250px;
+}
+
+
+.pie-pagina{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(11, 109, 194);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.pie-item{
+    flex: 1;
+    background-color: rgb(55, 166, 230);
+    border: 3px solid rgb(11, 109, 194);
+    border-radius: 5px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 100px;
 }
