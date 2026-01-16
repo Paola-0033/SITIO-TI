@@ -63,7 +63,7 @@ body{
     padding: 15px 20px;
 }
 .redes{
-    background-color: rgb(150, 149, 155);
+    background-color: rgb(16, 101, 180);
     width: 20%;
     display: flex;
     justify-content: center;
@@ -114,18 +114,53 @@ body{
 
 
 .seccion-grande{
-    background-color: rgb(99, 200, 230);
+    background-image: url("../IMAGENES/tecnologiabackgroud.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     border: 3px solid rgb(11, 109, 194);
     border-radius: 10px;
-    padding: 80px 20px;
     margin-bottom: 20px;
+
+    min-height: 300px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+}
+
+/* Capa oscura */
+.seccion-grande::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11, 109, 194, 0.75);
+    border-radius: 10px;
+}
+
+/* Contenido */
+.contenido-grande{
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    text-align: center;
     color: aliceblue;
-    font-size: 24px;
-    font-weight: bold;
-    min-height: 250px;
+    padding: 20px;
+}
+
+.contenido-grande h2{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contenido-grande p{
+    font-size: 18px;
 }
 
 
@@ -151,3 +186,4 @@ body{
     font-weight: bold;
     min-height: 100px;
 }
+
